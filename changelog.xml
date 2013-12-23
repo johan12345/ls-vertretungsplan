@@ -114,5 +114,6 @@
 	<release version="2.0.0" versioncode="6">
 		<change>Test</change>
 		<change>Und noch viel mehr</change>
+		<change>Und noch ein bisschen</change>
 	</release>
 </changelog>
