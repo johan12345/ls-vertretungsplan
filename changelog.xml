@@ -110,10 +110,11 @@
     </release>    
     <release version="1.3.1" versioncode="5">
         <change>Fix: Fehlerkorrektur bei der Klassenauswahl (Dank an Herrn Duncker!)</change>
+    </release>     
+    <release version="2.0" versioncode="6">
+        <change>Das Weihnachts-Update</change>
+        <change>Designverbesserungen</change>
+        <change>Deutlich erhöhte Geschwindigkeit</change>
+        <change>viele Bugfixes etc.</change>
     </release>   
-	<release version="2.0.0" versioncode="6">
-		<change>Test</change>
-		<change>Und noch viel mehr</change>
-		<change>Und noch ein bisschen</change>
-	</release>
 </changelog>
