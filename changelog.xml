@@ -116,5 +116,9 @@
         <change>Designverbesserungen</change>
         <change>Deutlich erhöhte Geschwindigkeit</change>
         <change>viele Bugfixes etc.</change>
-    </release>   
+    </release>  
+    <release version="2.1" versioncode="7">
+        <change>noch ein paar Designverbesserungen</change>
+        <change>wichtige Bugfixes</change>
+    </release> 
 </changelog>
