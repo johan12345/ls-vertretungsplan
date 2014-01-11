@@ -121,4 +121,7 @@
         <change>noch ein paar Designverbesserungen</change>
         <change>wichtige Bugfixes</change>
     </release> 
+    <release version="2.1.1" versioncode="8">
+        <change>Bugfix: Fehler "Vertretungsplan wurde beendet" beim Abruf im Hintergrund behoben</change>
+    </release>
 </changelog>
