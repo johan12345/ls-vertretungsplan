@@ -124,4 +124,7 @@
     <release version="2.1.1" versioncode="8">
         <change>Bugfix: Fehler "Vertretungsplan wurde beendet" beim Abruf im Hintergrund behoben</change>
     </release>
+    <release version="2.1.2" versioncode="9">
+        <change>Bugfix: Absturz bei der Hintergrundsynchronisation</change>
+    </release>
 </changelog>
