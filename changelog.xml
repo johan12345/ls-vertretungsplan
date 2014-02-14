@@ -130,4 +130,7 @@
     <release version="2.1.3" versioncode="10">
         <change>Bugfix: Absturz bei der Klingeltonauswahl auf einigen Geräten</change>
     </release>
+    <release version="2.1.4" versioncode="11">
+        <change>Lizenzbedingungen müssen beim ersten Start akzeptiert werden</change>
+    </release>
 </changelog>
