@@ -133,4 +133,7 @@
     <release version="2.1.4" versioncode="11">
         <change>Lizenzbedingungen müssen beim ersten Start akzeptiert werden</change>
     </release>
+    <release version="2.1.5" versioncode="12">
+        <change>Bei Abstürzen können jetzt Fehlerberichte gesendet werden.</change>
+    </release>
 </changelog>
