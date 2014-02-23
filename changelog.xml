@@ -136,4 +136,7 @@
     <release version="2.1.5" versioncode="12">
         <change>Bei Abstürzen können jetzt Fehlerberichte gesendet werden.</change>
     </release>
+    <release version="2.1.6" versioncode="13">
+        <change>Danke für die Fehlerberichte! Zwei Abstürze wurden behoben.</change>
+    </release>
 </changelog>
