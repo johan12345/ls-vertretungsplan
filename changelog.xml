@@ -139,4 +139,7 @@
     <release version="2.1.6" versioncode="13">
         <change>Danke für die Fehlerberichte! Zwei Abstürze wurden behoben.</change>
     </release>
+    <release version="2.1.7" versioncode="14">
+        <change>Danke für die Fehlerberichte! Noch ein Absturz wurde behoben.</change>
+    </release>
 </changelog>
