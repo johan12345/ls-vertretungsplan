@@ -142,4 +142,8 @@
     <release version="2.1.7" versioncode="14">
         <change>Danke für die Fehlerberichte! Noch ein Absturz wurde behoben.</change>
     </release>
+    <release version="2.1.8" versioncode="15">
+        <change>Entschuldigung für das Problem, dass nur noch "keine Informationen" angezeigt wurde! Jetzt geht es wieder.</change>
+        <change>Weitere Bugfixes (Danke für die Fehlerberichte!)</change>
+    </release>
 </changelog>
