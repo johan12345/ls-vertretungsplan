@@ -146,4 +146,8 @@
         <change>Entschuldigung für das Problem, dass nur noch "keine Informationen" angezeigt wurde! Jetzt geht es wieder.</change>
         <change>Weitere Bugfixes (Danke für die Fehlerberichte!)</change>
     </release>
+    <release version="2.1.9" versioncode="16">
+        <change>Danke für die Fehlerberichte!</change>
+        <change>Absturz bei Serverproblemen behoben</change>
+    </release>
 </changelog>
