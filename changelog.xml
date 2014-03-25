@@ -151,6 +151,7 @@
         <change>Absturz bei Serverproblemen behoben</change>
     </release>
     <release version="2.1.10" versioncode="17">
+		<change>ACHTUNG: Diese Version muss neu installiert werden. Bitte erst die App deinstallieren und dann die neue Version installieren</change>
         <change>Danke für die Fehlerberichte!</change>
         <change>Viele Abstürze behoben</change>
     </release>
