@@ -150,4 +150,8 @@
         <change>Danke für die Fehlerberichte!</change>
         <change>Absturz bei Serverproblemen behoben</change>
     </release>
+    <release version="2.1.10" versioncode="17">
+        <change>Danke für die Fehlerberichte!</change>
+        <change>Viele Abstürze behoben</change>
+    </release>
 </changelog>
