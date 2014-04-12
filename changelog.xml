@@ -163,4 +163,7 @@
         <change>Aktuelle Versionen von genutzten Bibliotheken</change>
         <change>Das Widget hat jetzt wie die App eine blaue Titelleiste</change>
     </release>
+	<release version="2.1.13" versioncode="20">
+        <change>Veröffentlichung auf Google Play</change>
+    </release>
 </changelog>
