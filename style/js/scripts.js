@@ -179,16 +179,3 @@ if(iOS) {
 	$('#iOS').css("display", "block").css("opacity", "1"); 
 	$('#grau').css("display", "block").css("opacity", "1");
 }
-
- /*-----------------------------------------------------------------------------------*/
-/*	Windows Phone INFOBOX
-/*-----------------------------------------------------------------------------------*/
-
-$('#WPclose').click(function(){
-	$('#WP').fadeOut("slow", function(){$('#grau').fadeOut("slow");});
-});
-var WP = ( navigator.userAgent.match(/(Windows Phone)/g) ? true : false );
-if(WP) {
-	$('#WP').css("display", "block").css("opacity", "1"); 
-	$('#grau').css("display", "block").css("opacity", "1");
-}
