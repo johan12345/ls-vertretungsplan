@@ -278,7 +278,7 @@ public class StartActivity extends TabSwipeActivity implements
 		boolean firstRun = settings.getBoolean("privacy", true);
 		if (firstRun) {
 			AlertDialog dialog = WebViewAlertDialog
-					.create(this, "http://hamilton.rami.io/web/datenschutz.html")
+					.create(this, "http://johan12345.github.io/ls-vertretungsplan/datenschutz.html")
 					.setPositiveButton("Akzeptieren", null).create();
 			dialog.setOnDismissListener(new OnDismissListener() {
 				@Override
