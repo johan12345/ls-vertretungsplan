@@ -109,7 +109,7 @@ public class VertretungsplanApplication extends Application {
 	public void notifySchoolChanged() {
 		String schoolId = "Schleswig_Lornsenschule";
 		if(schoolId != null) {
-			parser = new BackendConnectParser(schoolId, GCMRegistrar.getRegistrationId(context));
+			parser = new BackendConnectParser(schoolId);
 		}
 	}
 
