@@ -13,9 +13,9 @@ import android.util.Log;
 import com.google.gson.Gson;
 import com.joejernst.http.Request;
 import com.joejernst.http.Response;
+import com.johan.vertretungsplan.VertretungsplanApplication;
 import com.johan.vertretungsplan.objects.Schule;
 import com.johan.vertretungsplan.objects.Vertretungsplan;
-import com.johan.vertretungsplan_2.VertretungsplanApplication;
 
 public class BackendConnectParser extends BaseParser {
 

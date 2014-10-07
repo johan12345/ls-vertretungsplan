@@ -30,7 +30,8 @@ import android.os.Parcelable;
 
 import android.support.v4.app.FragmentPagerAdapter;
 import android.util.DisplayMetrics;
-import com.johan.vertretungsplan_2.R;
+
+import com.johan.vertretungsplan.R;
   
 public abstract class TabSwipeActivity extends Activity {
   

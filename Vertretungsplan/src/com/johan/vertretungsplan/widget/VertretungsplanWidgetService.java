@@ -16,7 +16,7 @@ import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
 import com.google.gson.Gson;
-import com.johan.vertretungsplan_2.R;
+import com.johan.vertretungsplan.R;
 import com.johan.vertretungsplan.objects.AdditionalInfo;
 import com.johan.vertretungsplan.objects.KlassenVertretungsplan;
 import com.johan.vertretungsplan.objects.Vertretung;

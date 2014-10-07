@@ -10,8 +10,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.widget.RemoteViews;
 
-import com.johan.vertretungsplan_2.R;
-import com.johan.vertretungsplan_2.StartActivity;
+import com.johan.vertretungsplan.R;
+import com.johan.vertretungsplan.StartActivity;
 
 @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
 public class VertretungsplanWidgetProvider extends AppWidgetProvider {

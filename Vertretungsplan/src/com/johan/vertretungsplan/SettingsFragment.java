@@ -14,17 +14,16 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see [http://www.gnu.org/licenses/]. */
 
-package com.johan.vertretungsplan_2;
+package com.johan.vertretungsplan;
 
 import org.holoeverywhere.preference.CheckBoxPreference;
 import org.holoeverywhere.preference.Preference;
 import org.holoeverywhere.preference.Preference.OnPreferenceChangeListener;
-import org.holoeverywhere.preference.Preference.OnPreferenceClickListener;
 import org.holoeverywhere.preference.PreferenceFragment;
-import com.google.android.gms.analytics.GoogleAnalytics;
-import com.johan.vertretungsplan_2.R;
 
-import android.content.Intent;
+import com.google.android.gms.analytics.GoogleAnalytics;
+import com.johan.vertretungsplan.R;
+
 import android.os.Bundle;
 import android.util.Log;
 
@@ -33,18 +32,6 @@ public class SettingsFragment extends PreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.preferences);
-        
-        Preference changeSchoolPref = findPreference(R.id.change_school);
-        changeSchoolPref.setOnPreferenceClickListener(new OnPreferenceClickListener() {
-
-			@Override
-			public boolean onPreferenceClick(Preference preference) {
-				Intent intent = new Intent(getActivity(), SelectSchoolActivity.class);
-				getActivity().startActivity(intent);
-				return true;
-			}
-        	
-        });
         
         CheckBoxPreference analyticsPref = (CheckBoxPreference) findPreference(R.id.analytics);
         analyticsPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {

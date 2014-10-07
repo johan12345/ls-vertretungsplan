@@ -1,4 +1,4 @@
-package com.johan.vertretungsplan_2;
+package com.johan.vertretungsplan;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

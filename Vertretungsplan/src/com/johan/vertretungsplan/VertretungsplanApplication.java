@@ -13,7 +13,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see [http://www.gnu.org/licenses/]. */
-package com.johan.vertretungsplan_2;
+package com.johan.vertretungsplan;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -102,28 +102,17 @@ public class VertretungsplanApplication extends Application {
 			return parser;
 		else {
 			notifySchoolChanged();
-			if(parser == null) {					
-				startSelectSchoolActivity();
-				parser = null;
-				return parser;
-			} else {
-				return parser;
-			}
+			return parser;
 		}
 	}
 
 	public void notifySchoolChanged() {
-		String schoolId = settings.getString("selected_school", null);
+		String schoolId = "Schleswig_Lornsenschule";
 		if(schoolId != null) {
 			parser = new BackendConnectParser(schoolId, GCMRegistrar.getRegistrationId(context));
 		}
 	}
-	
-	private void startSelectSchoolActivity() {
-		Intent intent = new Intent(this, SelectSchoolActivity.class);
-		intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-		startActivity(intent);
-	}
+
 	synchronized Tracker getTracker() {
 	    if (mTracker == null) {
 

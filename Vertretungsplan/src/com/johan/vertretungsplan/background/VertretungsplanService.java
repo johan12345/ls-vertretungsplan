@@ -17,6 +17,7 @@
 package com.johan.vertretungsplan.background;
 
 import java.io.IOException;
+
 import org.holoeverywhere.preference.PreferenceManager;
 import org.holoeverywhere.preference.SharedPreferences;
 import org.json.JSONException;
@@ -31,13 +32,14 @@ import android.net.NetworkInfo;
 import android.net.NetworkInfo.State;
 import android.os.Bundle;
 import android.util.Log;
+
 import com.google.gson.Gson;
+import com.johan.vertretungsplan.VertretungsplanApplication;
 import com.johan.vertretungsplan.objects.Vertretungsplan;
 import com.johan.vertretungsplan.parser.BaseParser;
 import com.johan.vertretungsplan.parser.BaseParser.UnauthorizedException;
 import com.johan.vertretungsplan.parser.BaseParser.VersionException;
 import com.johan.vertretungsplan.widget.VertretungsplanWidgetProvider;
-import com.johan.vertretungsplan_2.VertretungsplanApplication;
 
 public class VertretungsplanService extends IntentService {
 	public static String UPDATE_ACTION = "UPDATE";

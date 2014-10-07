@@ -14,7 +14,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see [http://www.gnu.org/licenses/]. */
 
-package com.johan.vertretungsplan_2;
+package com.johan.vertretungsplan;
 
 import org.holoeverywhere.app.AlertDialog;
 import org.holoeverywhere.preference.PreferenceManager;
@@ -79,9 +79,7 @@ public class StartActivity extends TabSwipeActivity implements
 				.getDefaultSharedPreferences(getApplicationContext());
 
 		if (!settings.contains("selected_school")) {
-			Intent intent = new Intent(this, SelectSchoolActivity.class);
-			startActivity(intent);
-			finish();
+			settings.edit().putString("selected_school", "Schleswig_Lornsenschule").commit();
 		}
 
 		vertretungFragment = new VertretungFragment();
@@ -338,25 +336,7 @@ public class StartActivity extends TabSwipeActivity implements
 			else
 				Log.d("vertretungsplan", "result == null");
 			if (result instanceof UnauthorizedException) {
-				Crouton crouton = Crouton
-						.makeText(
-								StartActivity.this,
-								"Benutzerdaten sind falsch. Bitte klicke hier, um dich erneut einzuloggen.",
-								Style.ALERT);
-				crouton.setOnClickListener(new OnClickListener() {
-
-					@Override
-					public void onClick(View arg0) {
-						Intent intent = new Intent(StartActivity.this,
-								SelectSchoolActivity.class);
-						startActivity(intent);
-						finish();
-					}
-
-				});
-				crouton.setConfiguration(new Configuration.Builder()
-						.setDuration(Configuration.DURATION_INFINITE).build());
-				crouton.show();
+				// Will not happen
 			} else if (result instanceof VersionException) {
 				Crouton crouton = Crouton
 						.makeText(

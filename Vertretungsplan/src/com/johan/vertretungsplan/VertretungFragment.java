@@ -14,7 +14,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see [http://www.gnu.org/licenses/]. */
 
-package com.johan.vertretungsplan_2;
+package com.johan.vertretungsplan;
 
 import java.io.IOException;
 import java.util.ArrayList;

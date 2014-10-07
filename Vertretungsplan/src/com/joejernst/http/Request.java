@@ -15,7 +15,8 @@ import java.util.List;
 import java.util.Map;
 
 import javax.net.ssl.HttpsURLConnection;
-import com.johan.vertretungsplan_2.VertretungsplanApplication;
+
+import com.johan.vertretungsplan.VertretungsplanApplication;
 
 /*
  * Copyright 2012 Joe J. Ernst
