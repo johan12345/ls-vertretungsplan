@@ -1865,18 +1865,8 @@ div#appNachricht {
 }
 
 #iOS, #WP {
-	position:fixed;
-	top:300px;
-	left:50%;
-	width: 700px;
-	margin-left: -350px;
-	background:#FFFFFF;
-	z-index:100000;
-	-webkit-box-shadow:  0px 0px 10px 2px rgba(0, 0, 0, 0.4);   
-    box-shadow:  0px 0px 10px 2px rgba(0, 0, 0, 0.4);
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
 	padding:15px;
+	background:#eee;
 	opacity:0;
 	display:none;
 }
